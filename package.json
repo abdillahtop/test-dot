@@ -1,0 +1,28 @@
+{
+  "name": "codegig",
+  "version": "1.0.0",
+  "description": "Simple job find index for coders",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "axios": "^0.21.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.2.5",
+    "pg": "^7.7.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.44.3",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
